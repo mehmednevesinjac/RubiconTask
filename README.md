@@ -3,7 +3,7 @@
 
 Standalone Startup
 
-At first, you need to have up and running MySQL and MsSQL database servers on localhost with.
+At first, you need to have up and running MySQL and MsSQL database servers on localhost.
 
 Then the application (API) can be started by dotnet
 run command executed in the RubiconTask\RubiconTask
