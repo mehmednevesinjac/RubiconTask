@@ -26,5 +26,10 @@ One of the error that can happen is that your ports are taken so go into docker-
 and change the web api port from 5000 to something else. By doing that you will also have to
 go to a different port in your browser. 
 
-If the API container keeps crashing give up and got with 
-Standalone Startup.
+If sql server start up fails you will need to do "docker pull mcr.microsoft.com/mssql/server:2022-latest" in CMD. It's probably failing because you don't have the least version of SQL pulled.
+
+If the API container keeps crashing give up and got with Standalone Startup.
+
+Notes 
+
+It was not clear to me what happens when a new blog post is created with tags that were previously now in Db, so I made that they are added. 
