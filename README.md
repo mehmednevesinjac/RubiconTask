@@ -32,4 +32,4 @@ If the API container keeps crashing give up and got with Standalone Startup.
 
 Notes 
 
-It was not clear to me what happens when a new blog post is created with tags that were previously now in Db, so I made that they are added. 
+It was not clear to me what happens when a new blog post is created with tags that were previously not in the Db, so I made it so that they are added. 
